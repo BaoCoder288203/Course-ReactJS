@@ -4,12 +4,13 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  return (
+  return ( 
     <>
       <div className='box'>
         <h1>Form in React</h1>
         <form action="">
           <label htmlFor="txtFN">First Name*</label>
+          
           <br />
           <input type="text" name="" id="txtFN" placeholder='Enter First Name'/>
           <br />
