@@ -1,0 +1,46 @@
+.theme-light {
+    background-color: #FFF;
+    color: #333;
+}
+
+.theme-dark {
+    background-color: #333;
+    color: #FFF;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    margin-bottom: 50px;
+}
+
+.table-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-container th,
+.table-container td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.table-container th {
+    text-align: left;
+}
+
+.product-info {
+    display: flex;
+    align-items: center;
+}
+
+.product-info img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.quantity-input {
+    width: 60px;
+    text-align: center;
+}
